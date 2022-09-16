@@ -1,0 +1,17 @@
+{
+  "name": "02---xmlhttprequest",
+  "version": "1.0.0",
+  "description": "Learning about XMLHTTPRequest",
+  "main": "index.js",
+  "scripts": {
+    "callback": "node src/scripts/js/index.js"
+  },
+  "keywords": [
+    "XMLHTTPRequest"
+  ],
+  "author": "Luis Marquez",
+  "license": "MIT",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
+}
