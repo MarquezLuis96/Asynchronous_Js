@@ -14,6 +14,7 @@
   "author": "Luis Marquez",
   "license": "MIT",
   "dependencies": {
+    "browserify": "^17.0.0",
     "xmlhttprequest": "^1.8.0"
   }
 }
