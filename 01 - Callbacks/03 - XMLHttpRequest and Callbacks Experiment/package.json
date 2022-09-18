@@ -1,0 +1,20 @@
+{
+  "name": "03---xmlhttprequest-and-callbacks-experiment",
+  "version": "1.0.0",
+  "description": "This is a new experiment",
+  "main": "index.js",
+  "scripts": {
+    "callback": "node src/scripts/js/index.js"
+  },
+  "keywords": [
+    "Callback",
+    "and",
+    "XMLHttpRequest"
+  ],
+  "author": "Luis Marquez",
+  "license": "MIT",
+  "dependencies": {
+    "browserify": "^17.0.0",
+    "xmlhttprequest": "^1.8.0"
+  }
+}
