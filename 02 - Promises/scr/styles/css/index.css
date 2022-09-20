@@ -1,6 +1,8 @@
 :root {
-    --color-prim: #000000;
-    --color-sec: #FFFFFF;
+    --color-prim: #121f3d;
+    --color-sec: #98ca3f;
+    --txt-prim: #FFFFFF;
+    --txt-sec: #33b1ff;
 }
 
 * {
@@ -15,6 +17,33 @@ html {
 }
 
 body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     font-size: 1.6rem;
+    background-color: var(--color-prim);
+    color: #98ca3f;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
 }
