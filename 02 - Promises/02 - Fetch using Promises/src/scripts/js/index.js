@@ -6,6 +6,7 @@ function fetchData(urlApi) {
     return fetch(urlApi);
 }
 
+/* CALLING ALL THE DATA PRODUCTS*/
 // fetchData(`${API}/products`)
 // .then(response => response.json())
 // .then(products => {
@@ -17,6 +18,7 @@ function fetchData(urlApi) {
 //     error => console.log(error)
 // );
 
+/* CALLING ALL PRODUCTS, THEN ONE PRODUC, THEN CATEGORY*/
 fetchData(`${API}/products`)
 .then(response => response.json())
 .then(products => {
@@ -34,3 +36,13 @@ fetchData(`${API}/products`)
 })
 .catch(error => {console.error("ERROR: " + error)})
 .finally(() => console.log("Finally"));
+
+
+/* CALLING A SINGLE PRODUCT BY ITS ID*/
+// fetchData(`${API}/products/101`)
+// .then(response => response.json())
+// .then(product => {
+//     console.log(product)
+// })
+// .catch(error => {console.error("ERROR: " + error)})
+// .finally(() => console.log("Finally"));
