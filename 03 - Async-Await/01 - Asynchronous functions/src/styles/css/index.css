@@ -1,0 +1,48 @@
+:root {
+    --color-prim: #121f3d;
+    --color-sec: #98ca3f;
+    --txt-prim: #FFFFFF;
+    --txt-sec: #33b1ff;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.6rem;
+    color: var(--txt-prim);
+    background-color: var(--color-prim);
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
