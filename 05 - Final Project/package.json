@@ -2,5 +2,18 @@
   "dependencies": {
     "node-fetch": "^3.2.10"
   },
-  "type":"module"
+  "type": "module",
+  "name": "05---final-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
+  },
+  "scripts": {
+    "deploy": "gh-pages -d src/scripts/js/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }
